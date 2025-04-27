@@ -61,26 +61,6 @@ void usunTablice(char* tab[], int size) {
 	delete[] tab;
 }
 
-//void debugPrintBoard(char* tab[], int size) {
-//	for (size_t row = 0; row < size + 1; row++)
-//	{
-//		for (size_t col = 0; col < size + 1; col++) {
-//			if (row == 0)
-//			{
-//				printf("%-3d", col);
-//			}
-//			else if (col == 0)
-//			{
-//				printf("%-3d", row);
-//			}
-//			else
-//			{
-//				printf("%-3c", tab[row - 1][col - 1]);
-//			}
-//		}
-//		std::cout << "\n";
-//	}
-//}
 
 int ileSpacji(char**& board, int size)
 {
