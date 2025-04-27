@@ -3,16 +3,6 @@
 bool DFS(char**& board, int row, int col, char pionek, bool**& visited, int size) {
 
 	visited[row][col] = true;
-	//cout << endl;
-	//cout << row << ";" << col <<";"<< pionek << endl;
-
-	//for (int i = 0; i < size; i++) {
-	//	for (int j = 0; j < size; j++) {
-	//		cout << visited[i][j];
-	//	}
-	//	cout << endl;
-	//}
-	//cout << endl;
 
 	if (col == size - 1 && pionek == 'r') {
 		return true;
